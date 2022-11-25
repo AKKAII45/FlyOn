@@ -1,0 +1,498 @@
+@media only screen and (max-width: 390px)
+{
+    /*fontes*/
+    @import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Roboto:wght@100;400;900&display=swap');
+
+    body{
+        background-image: url("./imagens/BOLA.png");
+    }
+
+    #img-header img{
+        width: 55px;
+        height: 70px;
+        left: 155px;
+        position: relative;
+        top: -10px;
+        z-index: 1;
+    }
+
+    #rectangle{
+        width: 392px;
+        height: 80px;
+        top: -99px;
+        background-color: #5654B5;
+        left: -10px;
+        position: relative;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    #img-lupa img{
+        position: absolute;
+        width: 66px;
+        height: 66px;
+        left: 315px;
+        top: 0px;
+        
+        background: url(image.png);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    #img-3btao img{
+        position: absolute;
+        width: 45px;
+        height: 20px;
+        left: 22px;
+        top: 23px;
+    }
+
+    #text-header{
+        position: absolute;
+        width: 189px;
+        height: 38px;
+        left: 120px;
+        top: 100px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 46px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+    }
+
+    #text-nome1{
+        position: absolute;
+        width: 77px;
+        height: 38px;
+        left: 72px;
+        top: 160px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 46px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+
+    }
+
+    #text-nome3{
+        position: absolute;
+        left: 74px;
+        top: 730px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 46px;
+        
+        color: #FFFFFF;
+                
+    }
+
+    #img-paris{
+
+        position: absolute;
+        width: 242px;
+        height: 161px;
+        left: 74px;
+        top: 200px;
+        z-index: 1;
+    }
+
+    #retangulopais{
+        position: absolute;
+        width: 242px;
+        height: 83px;
+        left: 74px;
+        top: 350px;
+        background: #FFFFFF;
+    }
+
+    #text-paris1{
+        position: absolute;
+        left: 81px;
+        top: 365px;
+        font-size: 22px;
+        color: #000000;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #text-pariscusto{
+        position: absolute;
+        width: 115px;
+        height: 35px;
+        left: 190px;
+        top: 360px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 35px;
+        color: #000000;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #text-seguinte{
+        position: absolute;
+        left: 124px;
+        top: 390px;
+        font-size: 32px;
+        color: #6202DD;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #text-nome2{
+        position: absolute;
+        width: 77px;
+        height: 38px;
+        left: 72px;
+        top: 434px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 46px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+
+    }
+
+    #img-italia{
+
+        position: absolute;
+        width: 242px;
+        height: 161px;
+        left: 74px;
+        top: 472px;
+        z-index: 1;
+    }
+
+    #retangulopais1{
+        position: absolute;
+        width: 242px;
+        height: 83px;
+        left: 74px;
+        top: 640px;
+        background: #FFFFFF;
+    }
+
+    #text-italia1{
+        position: absolute;
+        left: 81px;
+        top: 655px;
+        font-size: 22px;
+        color: #000000;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #text-italiacusto{
+        position: absolute;
+        width: 115px;
+        height: 35px;
+        left: 190px;
+        top: 650px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 35px;
+        color: #000000;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #text-seguinte1{
+        position: absolute;
+        left: 124px;
+        top: 680px;
+        font-size: 32px;
+        color: #6202DD;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #img-riodejaneiro{
+        position: absolute;
+        left: 74px;
+        top: 771px;
+        z-index: 1;
+    }
+
+    #retangulopais2{
+        position: absolute;
+        width: 242px;
+        height: 83px;
+        left: 74px;
+        top: 910px;
+        background: #FFFFFF;
+    }
+    #text-rjcusto{
+        position: absolute;
+        width: 115px;
+        height: 35px;
+        left: 190px;
+        top: 930px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 35px;
+        color: #000000;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #text-rio1{
+        position: absolute;
+        left: 81px;
+        top: 935px;
+        font-size: 22px;
+        color: #000000;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #text-seguinte2{
+        position: absolute;
+        left: 124px;
+        top: 955px;
+        font-size: 32px;
+        color: #6202DD;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #retangulooo{
+        position: absolute;
+        top: 2100px;
+        height: 50px;
+        width: 100px;
+    }
+
+    #text-nome4{
+        position: absolute;
+        left: 74px;
+        top: 1084px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 46px;
+        
+        color: #FFFFFF;
+        
+    }
+
+    #text-nome5{
+        position: absolute;
+        left: 74px;
+        top: 1425px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 46px;
+        
+        color: #FFFFFF;
+    }
+
+    #text-nome6{
+        position: absolute;
+        left: 74px;
+        top: 1802px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 46px;
+        
+        color: #FFFFFF;
+    }
+
+    #img-china{
+        position: absolute;
+        width: 242px;
+        height: 161px;
+        left: 74px;
+        top: 1121px;
+    }
+
+    #img-vegas{
+        position: absolute;
+        width: 242px;
+        height: 154px;
+        left: 74px;
+        top: 1467px;
+    }
+
+    #img-sp{
+        position: absolute;
+        width: 242px;
+        height: 161px;
+        left: 74px;
+        top: 1839px;
+    }
+
+    #retangulopaiscn{
+        position: absolute;
+        width: 242px;
+        height: 83px;
+        left: 74px;
+        top: 1280px;
+        
+        background: #FFFFFF;
+    }
+
+    #retangulopaisvegas{
+        position: absolute;
+        width: 242px;
+        height: 83px;
+        left: 74px;
+        top: 1621px;
+        
+        background: #FFFFFF;
+    }
+
+    #retangulopaispaulop{
+        position: absolute;
+        width: 242px;
+        height: 83px;
+        left: 74px;
+        top: 2000px;
+        
+        background: #FFFFFF;
+    }
+
+    #text-china1{
+        position: absolute;
+        left: 81px;
+        top: 1283px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        
+        
+        color: #000000;
+    }
+
+    #text-chinacusto{
+        position: absolute;
+        left: 200px;
+        top: 1283px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 37px;
+        color: #000000;
+    }
+
+    #text-seguintecn{
+        position: absolute;
+        left: 124px;
+        top: 1317px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 46px;
+        color: #6202DD;
+        
+    }
+
+    #text-vegas1{
+        position: absolute;
+        left: 81px;
+        top: 1624px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        color: #000000;
+    }
+
+    #text-vegascusto{
+        position: absolute;
+        left: 200px;
+        top: 1624px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 37px;
+        color: #000000;
+    }
+
+    #text-seguintevegas{
+        position: absolute;
+        left: 124px;
+        top: 1658px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 46px;
+        color: #6202DD;
+        
+    }
+
+    #text-sp1{
+        position: absolute;
+        left: 81px;
+        top: 2003px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        color: #000000;
+    }
+
+    #text-spcusto{
+        position: absolute;
+        width: 130px;
+        height: 36px;
+        left: 212px;
+        top: 2003px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 37px;
+        
+        color: #000000;
+        
+    }
+
+    #text-seguintesp{
+        position: absolute;
+        width: 126px;
+        height: 46px;
+        left: 124px;
+        top: 2037px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 46px;
+        color: #6202DD;
+    }
+}

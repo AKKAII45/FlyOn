@@ -1,0 +1,71 @@
+@media only screen and (max-width: 390px)
+{
+    /*fontes*/
+    @import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Roboto:wght@100;400;900&display=swap');
+
+    body{
+        background-image: url("./imagens/BOLA.png");
+    }
+
+    #img-header img{
+        width: 55px;
+        height: 70px;
+        left: 155px;
+        position: relative;
+        top: -10px;
+        z-index: 1;
+    }
+
+    #rectangle{
+        width: 392px;
+        height: 80px;
+        top: -99px;
+        background-color: #5654B5;
+        left: -10px;
+        position: relative;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    #img-lupa img{
+        position: absolute;
+        width: 66px;
+        height: 66px;
+        left: 315px;
+        top: 0px;
+        
+        background: url(image.png);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    #img-3btao img{
+        position: absolute;
+        width: 30px;
+        height: 55px;
+        left: 30px;
+        top: 10px;
+    }
+  
+   #mapa{
+    position: relative;
+    top: 50px;
+   }
+
+   #close{
+    position: absolute;
+    width: 52px;
+    height: 92px;
+    left: 15px;
+    top: 150px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 92px;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(44.89deg);    
+   }
+   
+}

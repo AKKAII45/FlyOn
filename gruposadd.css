@@ -1,0 +1,520 @@
+@media only screen and (max-width: 390px)
+{
+    /*fontes*/
+    @import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Roboto:wght@100;400;900&display=swap');
+
+    body{
+        background-image: url("./imagens/BOLA.png");
+    }
+
+    #img-header img{
+        width: 55px;
+        height: 70px;
+        left: 155px;
+        position: relative;
+        top: -28px;
+        z-index: 1;
+    }
+
+    #rectangle{
+        width: 392px;
+        height: 80px;
+        top: -113px;
+        background-color: #5654B5;
+        left: -10px;
+        position: relative;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    #img-lupa img{
+        position: absolute;
+        width: 66px;
+        height: 66px;
+        left: 315px;
+        top: 0px;
+        
+        background: url(image.png);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    #img-3btao img{
+        position: absolute;
+        width: 45px;
+        height: 20px;
+        left: 22px;
+        top: 23px;
+    }
+
+    #grupo1{
+        box-sizing: border-box;
+        position: absolute;
+        width: 390px;
+        height: 89px;
+        left: 0px;
+        top: 135px;
+        background: #D9D9D9;
+        border: 1px solid #000000;   
+        text-align: center;     
+        font-size: 30px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        line-height: 87px;
+        
+    }
+
+    #grupo2{
+        box-sizing: border-box;
+        position: absolute;
+        width: 390px;
+        height: 89px;
+        left: 0px;
+        top: 224px;
+        background: #D9D9D9;
+        border: 1px solid #000000;   
+        text-align: center;     
+        font-size: 30px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        line-height: 87px;
+        
+    }
+
+    #grupo3{
+        box-sizing: border-box;
+        position: absolute;
+        width: 390px;
+        height: 89px;
+        left: 0px;
+        top: 313px;
+        background: #D9D9D9;
+        border: 1px solid #000000;   
+        text-align: center;     
+        font-size: 30px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        line-height: 87px;
+
+        
+        
+    }
+
+    #grupo4{
+        box-sizing: border-box;
+        position: absolute;
+        width: 390px;
+        height: 89px;
+        left: 0px;
+        top: 402px;
+        background: #D9D9D9;
+        border: 1px solid #000000;   
+        text-align: center;     
+        font-size: 30px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        line-height: 87px;
+        
+    }
+
+    #grupo5{
+        box-sizing: border-box;
+        position: absolute;
+        width: 390px;
+        height: 89px;
+        left: 0px;
+        top: 491px;
+        background: #D9D9D9;
+        border: 1px solid #000000;   
+        text-align: center;     
+        font-size: 30px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        line-height: 87px;
+        
+    }
+
+
+    #grupo6{
+        box-sizing: border-box;
+        position: absolute;
+        width: 390px;
+        height: 89px;
+        left: 0px;
+        top: 580px;
+        background: #D9D9D9;
+        border: 1px solid #000000;   
+        text-align: center;     
+        font-size: 30px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        line-height: 87px;
+        
+    }
+
+    #grupo7{
+        box-sizing: border-box;
+        position: absolute;
+        width: 390px;
+        height: 89px;
+        left: 0px;
+        top: 669px;
+        background: #D9D9D9;
+        border: 1px solid #000000;   
+        text-align: center;     
+        font-size: 30px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        line-height: 87px;
+        
+    }
+
+    #grupo8{
+        box-sizing: border-box;
+        position: absolute;
+        width: 390px;
+        height: 89px;
+        left: 0px;
+        top: 758px;
+        background: #D9D9D9;
+        border: 1px solid #000000;   
+        text-align: center;     
+        font-size: 30px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        line-height: 87px;
+        
+    }
+
+    #foto1{
+        position: absolute;
+        left: -10px;
+        top: 120px;
+        
+        background: url(image.png);
+        mix-blend-mode: darken;        
+    }
+
+    #foto2{
+        position: absolute;
+        left: -10px;
+        top: 209px;
+        
+        background: url(image.png);
+        mix-blend-mode: darken;        
+    }
+
+    #foto3{
+        position: absolute;
+        left: -10px;
+        top: 298px;
+        
+        background: url(image.png);
+        mix-blend-mode: darken;        
+    }
+
+    #foto4{
+        position: absolute;
+        left: -10px;
+        top: 387px;
+        
+        background: url(image.png);
+        mix-blend-mode: darken;        
+    }
+
+    #foto5{
+        position: absolute;
+        left: -10px;
+        top: 476px;
+        
+        background: url(image.png);
+        mix-blend-mode: darken;        
+    }
+
+    #foto6{
+        position: absolute;
+        left: -10px;
+        top: 565px;
+        
+        background: url(image.png);
+        mix-blend-mode: darken;        
+    }
+
+    #foto7{
+        position: absolute;
+        left: -10px;
+        top: 654px;
+        
+        background: url(image.png);
+        mix-blend-mode: darken;        
+    }
+
+    #foto8{
+        position: absolute;
+        left: -10px;
+        top: 743px;
+        
+        background: url(image.png);
+        mix-blend-mode: darken;        
+    }
+
+    #text-grupos{
+        position: absolute;
+        width: 133px;
+        height: 38px;
+        left: 29px;
+        top: 78px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 46px;
+        
+        color: #0075FF;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    #text-amigos{
+        position: absolute;
+        width: 133px;
+        height: 38px;
+        left: 228px;
+        top: 78px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 46px;
+        
+        color: #FFFFFF;
+    }
+
+    #img-add{
+        position: absolute;
+        width: 121px;
+        height: 121px;
+        left: 257px;
+        top: 723px;
+        z-index: 2;
+        background: url(image.png);
+        mix-blend-mode: darken;        
+    }
+
+  
+    #img-addborda{
+        position: absolute;
+        width: 99px;
+        height: 99px;
+        left: 268px;
+        top: 734px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+        border-radius: 50px;     
+    }
+
+    #img-addmais{
+        position: absolute;
+        left: 342px;
+        top: 744px;
+        font-family: 'Istok Web';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 92px;
+        
+        color: #000000;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    #retangulocriar{
+        position: absolute;
+        width: 295px;
+        height: 502px;
+        left: 43px;
+        top: 182px;
+        background: #22137D;
+    }
+
+    #retangulobranco1{
+        position: absolute;
+        width: 196px;
+        height: 39px;
+        left: 99px;
+        top: 330px;
+        background: #D9D9D9;
+    }
+
+    #retangulobranco2{
+        position: absolute;
+        width: 196px;
+        height: 132px;
+        left: 97px;
+        top: 414px;
+        background: #D9D9D9;
+    }
+
+    #retangulocinza{
+        position: absolute;
+        width: 196px;
+        height: 26px;
+        left: 97px;
+        top: 414px;
+        background: #676767;
+    }
+
+    #Criar{
+        position: absolute;
+        width: 161px;
+        height: 46px;
+        left: 115px;
+        top: 219px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 46px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    #nome{
+        position: absolute;
+        width: 122px;
+        height: 76px;
+        left: 99px;
+        top: 293px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 46px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    #nome1{
+        position: absolute;
+        width: 70px;
+        height: 35px;
+        left: 102px;
+        top: 334px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        color: #353535;
+    }
+
+    #participantes{
+        position: absolute;
+        width: 215px;
+        height: 76px;
+        left: 96px;
+        top: 373px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 46px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    #addamigos{
+        position: absolute;
+        width: 149px;
+        height: 29px;
+        left: 99px;
+        top: 414px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #353535;
+        
+    }
+
+    #amigo1{
+        position: absolute;
+        width: 50px;
+        height: 29px;
+        left: 102px;
+        top: 440px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #353535;
+    }
+
+    #amigo2{
+        position: absolute;
+        width: 57px;
+        height: 29px;
+        left: 102px;
+        top: 464px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #353535;
+    }
+
+    #amigo3{
+        position: absolute;
+        width: 91px;
+        height: 29px;
+        left: 102px;
+        top: 485px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #353535;
+    }
+
+    #amigo4{
+        position: absolute;
+        width: 64px;
+        height: 29px;
+        left: 102px;
+        top: 507px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #353535;
+        
+    }
+
+    #botaoaddd{
+        position: absolute;
+        width: 40px;
+        height: 92px;
+        left: 171px;
+        top: 576px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 92px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);        
+    }
+
+}

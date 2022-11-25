@@ -1,0 +1,264 @@
+@media only screen and (max-width: 390px)
+{
+    /*fontes*/
+    @import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Roboto:wght@100;400;900&display=swap');
+
+    body{
+        background-image: url("./imagens/BOLA.png");
+    }
+
+    .header{
+        width: 90vw;
+        
+    }
+
+    #text-header{
+        width: 50%;
+        height: 20px;
+        position: relative;
+        left: 140px;
+        top: 30px;
+        font-size: 32px;
+        color: #fff;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #img-header img{
+        width: 79px;
+        height: 96px;
+        left: 140px;
+        position: relative;
+        top: 110px;
+        z-index: 1;
+    }
+    
+    #text-footer{
+
+
+    position: absolute;
+    width: 143px;
+    height: 28px;
+    left: 123px;
+    top: 799px;
+
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #01F0FF;
+    font-family: 'Istok Web', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+
+    }
+
+    }
+
+    #rectangle{
+        width: 269px;
+        height: 584px;
+        border: 1px solid rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        left: 50px;
+        position: relative;
+        border-radius: 36px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    #rectangle1{
+
+
+    position: absolute;
+    width: 231px;
+    height: 40px;
+    left: 79px;
+    top: 268px;
+
+    background: #FFFFFF;
+    border-radius: 31px;
+
+    }
+
+    #rectangle2{
+
+
+        position: absolute;
+        width: 231px;
+        height: 40px;
+        left: 79px;
+        top: 317px;
+        background: #FFFFFF;
+        border-radius: 31px;
+    
+        }
+
+    #rectangle3{
+
+    position: absolute;
+    width: 121px;
+    height: 40px;
+    left: 134px;
+    top: 573px;
+
+    background: #3D2BAB;
+    border-radius: 31px;
+
+    }    
+
+    #rectangle4{
+
+
+        position: absolute;
+        width: 231px;
+        height: 40px;
+        left: 79px;
+        top: 365px;
+        background: #FFFFFF;
+        border-radius: 31px;
+    
+    }
+
+    #rectangle5{
+        position: absolute;
+        width: 231px;
+        height: 40px;
+        left: 80px;
+        top: 458px;
+        background: #FFFFFF;
+        border-radius: 31px;
+        
+    }     
+
+    #rectangle6{
+        position: absolute;
+        width: 231px;
+        height: 40px;
+        left: 80px;
+        top: 510px;
+
+        background: #FFFFFF;
+        border-radius: 31px;
+        
+    }     
+         
+
+    #text-text{
+
+    position: absolute;
+    width: 134px;
+    height: 28px;
+    left: 95px;
+    top: 277px;
+    font-family: 'Istok Web', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+    }
+
+    #text-text1{
+
+        position: absolute;
+        width: 134px;
+        height: 28px;
+        left: 95px;
+        top: 326px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        color: #000000;
+        }
+
+    #text-text2{
+    position: absolute;
+    width: 134px;
+    height: 28px;
+    left: 128px;
+    top: 583px;
+
+    font-family: 'Istok Web', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    }    
+
+    #text-text3{
+        position: absolute;
+        width: 134px;
+        height: 28px;
+        left: 128px;
+        top: 630px;
+    
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    #text-text-text2{
+
+
+    position: absolute;
+    width: 158px;
+    height: 28px;
+    left: 95px;
+    top: 374px;
+    font-family: 'Istok Web', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+
+
+    }
+
+    #text-text-text1{
+        position: absolute;
+        width: 158px;
+        height: 28px;
+        left: 95px;
+        top: 466px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    #text-text-text11{
+        position: absolute;
+        width: 158px;
+        height: 28px;
+        left: 95px;
+        top: 520px;
+        font-family: 'Istok Web', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+}
+
